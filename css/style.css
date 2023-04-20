@@ -1,9 +1,9 @@
 :root{
     --primary:blue;
-    --secundary:gray;
-    --text-color:green;
+    --secundary:#808080;
+    --text-color:#0e970e;
     --text-secundary:black;
-    --text-tertiary:gray;
+    --text-tertiary: #add8e6;
 
 }
 *{
@@ -24,3 +24,68 @@
     align-items: center;
     color: var(--text-color);
 }
+#disclaimer h2,
+    #disclaimer .event-date{
+        color: var(--primary);
+    }
+#disclaimer h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#disclaimer .about-event{
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+
+}
+#disclaimer .event-date{
+    font-weight: bold;
+    
+}
+#subscription-form{
+    background-color: var(--secundary);
+    padding: 2em;
+    max-width: 22%;
+
+}
+#subscription-form p{
+    font-size: 2em;
+    color: var(--text-secundary)
+}
+.form-group{
+    font-size: 1em;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-group label{
+    color: var(--text-tertiary);
+    font-weight: bold;
+    margin: 0.3em;
+}
+.form-group input, .form-group select{
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn{
+    background-color: var(--primary);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1em;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+}
+
