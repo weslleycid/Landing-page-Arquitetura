@@ -3,7 +3,7 @@
     --secundary:#808080;
     --text-color:#0e970e;
     --text-secundary:black;
-    --text-tertiary: #add8e6;
+    --text-tertiary: #022752;
 
 }
 *{
@@ -88,4 +88,90 @@
     width: 100%;
     opacity: 1;
 }
+/*Benefits*/
+ #key-benefits h2{
+    background-color: var(--secundary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 700;
+ }
+ .benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+    width: 80%;
+    margin: 0 auto;
+ 
+}
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-tertiary);
+    font-weight: 700;
+}
 
+ .benefit .benefit-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+ }
+#benefit-1{
+    background: url("../img/sqr-1.jpg");
+}
+#benefit-2{
+    background: url("../img/sqr-2.jpg");
+}
+#benefit-3{
+    background: url("../img/sqr-3.jpg");
+}
+/*Event location*/
+#location{
+height: 400px;
+background:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../img/hrz-2.jpg");
+background-position: center;
+background-size: cover;
+color: var(--text-color);
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 3em;
+}
+#adress {
+    display: flex;
+}
+#about-location{
+    max-width: 30%;
+}
+#adress i{
+    color: var(--primary);
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+#adress-details{
+    text-align: center;
+    font-size: 1.3em;
+}
+#about-location h3{
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+#about-location p{
+    line-height: 2em;
+    font-weight:500;
+}
+/*event details container*/
+#details{
+    width: 80%;
+    margin: 0 auto;
+}
+#detail{
+    display: flex;
+    align-items: flex-start;
+}
